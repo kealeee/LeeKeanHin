@@ -1,0 +1,53 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Add in your own customisations */
+
+/* Style the main heading */
+header {
+    background-color: #93d0f4;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  a {
+    color: #0079c1;
+  }
+  
+  footer {
+    background-color: #93d0f4;
+    text-align: center;
+    padding: 10px;
+  }
+  h2 {
+	color: green;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light grey for odd rows */
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #e9e9e9; /* Slightly darker grey for even rows */
+  }
+
